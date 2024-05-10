@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: cursive;
+}
+
+.test-con {
+  width: 500px;
+  height: 200px;
+  /* background-image: url("https://picsum.photos/200/300/?blur=2"); */
+  background-color: cadetblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8 px rgba(0, 0, 0, 0.3);
+  min-width: 400px;
+  padding: 70px 20px;
+  margin: 5px;
+  color: white;
+  position: relative;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50%;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: 100;
+}
